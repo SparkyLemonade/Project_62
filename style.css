@@ -1,0 +1,48 @@
+body {
+    text-align:center;
+}
+
+.menu {
+    list-style:none;
+    font-family:cursive;
+    position:fixed;
+    top:0px;
+    margin-top:0px;
+    padding-left:250px;
+    text-align:center;
+    cursor:pointer;
+    background-color:white;
+    z-index:10;
+    cursor:pointer;
+    width:100%;
+}
+
+.links {
+    float:left;
+    color:coral;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size:20px;
+}
+
+.links:hover {
+   background-color:deepskyblue; 
+}
+
+.menu a {
+    text-decoration:none;
+    color: darkblue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+img {
+    height:400px;
+    width:400px;
+}
+
+#slide img {
+    height:400px;
+    width:450px;
+}
